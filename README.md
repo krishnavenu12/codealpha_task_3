@@ -34,8 +34,6 @@ CreditScoringProject/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-markdown
-Copy code
 
 ## Requirements
 - Python 3.10+
@@ -46,40 +44,26 @@ Copy code
 - Joblib (for saving/loading models)
 
 Install dependencies:
-```bash
 pip install -r requirements.txt
 Usage
-Clone the repository:
 
-bash
-Copy code
+Clone the repository:
 git clone https://github.com/yourusername/CreditScoringProject.git
 cd CreditScoringProject
-Activate virtual environment (recommended):
 
-bash
-Copy code
+Activate virtual environment (recommended):
 python -m venv venv
 venv\Scripts\activate
+
 Install dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
+
 Run the project:
-
-bash
-Copy code
 python main.py
-Make predictions with new data:
 
-bash
-Copy code
+Make predictions with new data:
 python predict.py
+
 Author
 Krishna Venugopal
-
-pgsql
-Copy code
-
 I can also make a **shorter, GitHub-friendly version** that looks clean at a glance if you want something even more concise. Do you want me to do that?
